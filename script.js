@@ -28,7 +28,7 @@ for (let i = 1; i <= 100; i++) {
 
   //* ALTRIMENTI controlliamo SE è solo un multiplo di 5
   else if (i % 5 === 0) {
-    //* se lo è stampiamo "Buzz" al posto del numero
+    //* se lo è cambiamo il valore del messaggio con "Buzz"
     message = "Buzz";
   }
 
@@ -38,5 +38,6 @@ for (let i = 1; i <= 100; i++) {
   }
 
   //! OUTPUT
+  //*stampiamo il contenuto del messaggio
   console.log(message);
 }
